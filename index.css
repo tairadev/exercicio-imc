@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #FC466B, #3F5EFB);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+#formulario h1 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#formulario input, #formulario input:focus {
+  margin: 5px 0 20px;
+  padding: 0 5px;
+  border: 0;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none;
+}
+
+.button-submit {
+  display: flex;
+  background: linear-gradient(45deg, #FC466B, #3F5EFB);
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: .3s;
+  font-weight: 600;
+}
+
+.button-submit:hover {
+  opacity: .8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+}

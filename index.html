@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Exemplo de IMC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <form id="formulario">
+    <h1>Exercício IMC</h1>
+    
+    <label for="weight">Peso:</label>
+    <input name="weight" type="number" />
+  
+    <label for="height">Altura(m):</label>
+    <input name="height" type="number" />
+  
+    <label for="imc">IMC:</label>
+    <input name="imc" type="text" disabled="disabled" />
+
+    <h2></h2>
+          
+    <a href="#" class="button-submit" onclick="calcular();">Calcular</a>
+  </form>
+  <script src="./index.js"></script>
+</body>
+</html>
